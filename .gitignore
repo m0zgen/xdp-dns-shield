@@ -1,0 +1,22 @@
+# Build output
+/bin/
+/dist/
+*.o
+*.a
+*.so
+
+# Generated eBPF bindings and coverage
+*_bpfel.go
+*_bpfeb.go
+coverage.out
+
+# Local tools and editors
+.idea/
+.vscode/
+.DS_Store
+
+# Local test artifacts
+/tmp/
+*.pcap
+*.log
+
