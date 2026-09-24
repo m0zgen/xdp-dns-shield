@@ -111,6 +111,16 @@ Design review, threat-model feedback, test scenarios, and operational DNS abuse
 reports are already useful. Please read [CONTRIBUTING.md](CONTRIBUTING.md) and
 [SECURITY.md](SECURITY.md) before opening an issue.
 
+## Use of Generative AI
+
+Generative AI tools have been used to assist with drafting, editing, and structuring portions of the project documentation.
+
+The project scope, architecture, threat model, technical claims, and final wording are reviewed and approved by the maintainer. The maintainer remains responsible for the accuracy, originality, licensing, security, and maintainability of all published material.
+
+The repository does not currently contain implementation code. Any future substantive use of generative AI in source code or other project deliverables will be disclosed in the relevant commits or accompanying documentation, including the model, purpose, and appropriate provenance information.
+
+AI-assisted contributions must be understood, tested, and reviewed by the human contributor submitting them. Unreviewed AI-generated code or documentation will not be accepted.
+
 ## License
 
 The project is licensed under the [Apache License 2.0](LICENSE). Individual BPF
