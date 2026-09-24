@@ -75,6 +75,9 @@ motivated and validated the prototype. XDP DNS Shield is being designed as an
 independent, reusable component. Using it must not require OpenBLD or any
 OpenBLD-specific service.
 
+A summary of the production prototype validation is available in
+[Prototype evidence](docs/prototype-evidence.md).
+
 ## Scope and non-goals
 
 The project protects Linux-based recursive DNS services against selected forms
