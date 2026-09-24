@@ -36,6 +36,14 @@ The following capabilities were observed in the private production prototype. On
 
 These observations show that the feedback loop between the XDP datapath, userspace policy evaluation, and BPF maps is operational. They do not establish universal thresholds or prove that the same policy is safe for every network.
 
+### Anonymised production snapshot
+
+The following snapshot contains selected DNS-related counters exported by the private prototype on an OpenBLD production edge. Host identifiers, source addresses, network prefixes, and unrelated experimental transport counters have been excluded.
+
+![Selected XDP DNS Shield production counters](evidence/openbld-dns-counters-2026-09-24.jpg)
+
+The snapshot shows active UDP/53 accounting, EDNS/OPT recognition, and QTYPE policy enforcement. The values represent a single operational observation captured on 24 September 2026 and are provided as evidence of the working datapath and userspace telemetry. They are not benchmark results.
+
 ## Relationship to the planned public project
 
 The deployed prototype contains OpenBLD-specific configuration and experimental transport controls that are outside the initial public DNS-focused scope. The public project will not be a direct publication of a production deployment.
@@ -56,7 +64,11 @@ OpenBLD will remain a reference validation environment. Use of the public compon
 
 ## Evidence handling and privacy
 
-Raw production screenshots and logs are not published because they contain source addresses, network prefixes, host identifiers, and deployment-specific operational data. Their exclusion is intentional and consistent with the project's privacy and security principles.
+Raw, unredacted production screenshots and logs are not published because they
+contain source addresses, network prefixes, host identifiers, and
+deployment-specific operational data. Only selected anonymised aggregate
+evidence may be published. This approach is consistent with the project's
+privacy and security principles.
 
 The public evidence set does not contain:
 
